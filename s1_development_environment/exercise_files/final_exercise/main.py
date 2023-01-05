@@ -4,6 +4,9 @@ import sys
 import torch
 import click
 
+import math
+import scipy
+
 from data import mnist
 from model import MyAwesomeModel
 
