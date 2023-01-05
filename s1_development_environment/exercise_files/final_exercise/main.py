@@ -4,8 +4,10 @@ import sys
 import torch
 import click
 
+
 import matplotlib.pyplot as plt
-print("Hello World")
+import math
+
 
 from data import mnist
 from model import MyAwesomeModel
